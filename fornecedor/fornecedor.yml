@@ -1,0 +1,10 @@
+spring:
+  application:
+  datasource:
+    password: sa
+    username: root
+    url: jdbc:mysql://localhost:3306/fornecedor
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MariaDBDialect
